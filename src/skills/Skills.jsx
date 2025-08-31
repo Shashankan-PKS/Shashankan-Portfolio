@@ -1,0 +1,50 @@
+import './Skills.css'
+
+function Skills(){
+
+    return(
+        <>
+            <div className="skillcontent">
+                <h4>Developer's Skills <i class="fa-solid fa-code"></i></h4>
+                <div className="skillscontainer">
+                    <div className="skillsets">
+                        <div class="skills">
+                            <i class="fa-brands fa-html5"></i>
+                            <p>HTML</p>
+                        </div>
+                        <div class="skills">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <p>CSS</p>
+                        </div>
+                        <div class="skills">
+                            <i class="fa-brands fa-js"></i>
+                            <p>Javascript</p>
+                        </div>
+                        <div class="skills">
+                            <i class="fa-brands fa-react"></i>
+                            <p>React Js</p>
+                        </div>
+                        <div class="skills">
+                            <i class="fa-brands fa-python"></i>
+                            <p>Python</p>
+                        </div>
+                        <div class="skills">
+                            <i class="fa-solid fa-c"></i>
+                            <p>C Programming</p>
+                        </div>
+                        <div class="skills">
+                            <i class="fa-brands fa-php"></i>
+                            <p>PHP</p>
+                        </div>
+                        <div class="skills">
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <p>Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default Skills
