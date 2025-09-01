@@ -21,7 +21,7 @@
 }
 .profilepicture img{
     width: 40%;
-    height: 200px;
+    height: 250px;
     border-radius: 50%;
     border: 2px solid black;
 }
@@ -43,13 +43,33 @@
 .res button{
     padding: 10px;
     background: rgb(255, 30, 0);
-    color: whitesmoke;
+    
     border: none;
     border-radius: 5px;
+}
+.res button a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+@media(max-width:1020px){
+    .profilepicture img{
+        width: 70%;
+        height: 250px;
+    }
+}
+@media(max-width:900px){
+    .profilepicture img{
+        width: 70%;
+        height: 250px;
+    }
 }
 @media(max-width:768px){
     .profile{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .profilepicture img{
+        width: 50%;
+        height: 225px;
     }
 }
 @media(max-width:578px){
@@ -67,5 +87,13 @@
     .profilepicture img{
         width: 80%;
     }
+    
+}
+@media(max-width:450px){
+    .profilepicture img{
+        width: 50%;
+        height: 150px;
+    }
+    
     
 }
