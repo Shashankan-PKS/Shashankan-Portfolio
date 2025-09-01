@@ -1,6 +1,6 @@
 import './Home.css'
 import pic from '../assets/Profilepic.jpg'
-import Shashankan_P_K_Resume from '../assets/Shashankan_P_K_Resume.pdf'
+import Shashankan_P_K_Resume from '../assets/Shashankan_Resume.pdf'
 
 function Home() {
     return(
