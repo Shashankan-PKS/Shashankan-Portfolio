@@ -1,5 +1,6 @@
 import './Home.css'
-import pic from '../assets/picdummy.jpg'
+import pic from '../assets/Profilepic.jpg'
+import resume from '../assets/Shashankan_P_K_Resume.pdf'
 
 function Home() {
     return(
@@ -23,7 +24,8 @@ function Home() {
                         </div>
                     </div>
                     <div class="res">
-                        <button type="button"> <i class="fa-regular fa-file"></i> Resume Download</button>
+                        
+                        <button type="button"><a href={resume} download='resume'> <i class="fa-regular fa-file"></i> Resume Download</a></button>
                     </div>
                 </div>
             </div>

@@ -19,13 +19,13 @@ function Project(){
                         </div>
                         <div className="project1exp">
                             <h4>Online bus reservation project using HTML, CSS, Javascript, PHP and MySql for Database</h4>
-                            <a class="btn" href="https://github.com/Shashankan-PKS/online_busreserv" target="_blank" role="button">view source code</a>
+                            <a class="btn" href="https://github.com/Shashankan-PKS/online_busreserv" target="_blank" role="button">view Source code</a>
                         </div>
                     </div>
                     <div className="project2">
                         <div className="project1exp">
-                            <h4>Online bus reservation project using HTML, CSS, Javascript, PHP and MySql for Database</h4>
-                            <a class="btn" href="https://shashankan-pks.github.io/todoapp/" target="_blank" role="button">view source code</a>
+                            <h4>To-Do List website using HTML,CSS and Javascript</h4>
+                            <a class="btn" href="https://shashankan-pks.github.io/todoapp/" target="_blank" role="button">view Website</a>
                         </div>
                         <div className="project1img">
                             <img src={project2} />
@@ -36,14 +36,14 @@ function Project(){
                             <img src={project3} />
                         </div>
                         <div className="project1exp">
-                            <h4>Online bus reservation project using HTML, CSS, Javascript, PHP and MySql for Database</h4>
-                            <a class="btn" href="https://shashankan-pks.github.io/checkweather/" target="_blank" role="button">view source code</a>
+                            <h4>Weather Checking website using HTML,CSS and Javascript</h4>
+                            <a class="btn" href="https://shashankan-pks.github.io/checkweather/" target="_blank" role="button">view Website</a>
                         </div>
                     </div>
                     <div className="project4">
                         <div className="project1exp">
-                            <h4>Online bus reservation project using HTML, CSS, Javascript, PHP and MySql for Database</h4>
-                            <a class="btn" href="https://shashankan-pks.github.io/calculator/index.html" target="_blank" role="button">view source code</a>
+                            <h4>Calculator website using HTML,CSS and Javascript</h4>
+                            <a class="btn" href="https://shashankan-pks.github.io/calculator/index.html" target="_blank" role="button">view Website</a>
                         </div>
                         <div className="project1img">
                             <img src={project4} />
@@ -54,14 +54,14 @@ function Project(){
                             <img src={project5} />
                         </div>
                         <div className="project1exp">
-                            <h4>Online bus reservation project using HTML, CSS, Javascript, PHP and MySql for Database</h4>
-                            <a class="btn" href="https://shashankan-pks.github.io/calculator/Calculator/temperature%20converter/temp.html" target="_blank" role="button">view source code</a>
+                            <h4>Temperature conversion website using HTML,CSS and Javascript</h4>
+                            <a class="btn" href="https://shashankan-pks.github.io/calculator/Calculator/temperature%20converter/temp.html" target="_blank" role="button">view Website</a>
                         </div>
                     </div>
                     <div className="project4">
                         <div className="project1exp">
-                            <h4>Online bus reservation project using HTML, CSS, Javascript, PHP and MySql for Database</h4>
-                            <a class="btn" href="https://shashankan-pks.github.io/calculator/Calculator/length%20convertor/leng.html" target="_blank" role="button">view source code</a>
+                            <h4>Length conversion website using HTML,CSS and Javascript</h4>
+                            <a class="btn" href="https://shashankan-pks.github.io/calculator/Calculator/length%20convertor/leng.html" target="_blank" role="button">view Website</a>
                         </div>
                         <div className="project1img">
                             <img src={project6} />
@@ -72,8 +72,8 @@ function Project(){
                             <img src={project7} />
                         </div>
                         <div className="project1exp">
-                            <h4>Online bus reservation project using HTML, CSS, Javascript, PHP and MySql for Database</h4>
-                            <a class="btn" href="https://shashankan-pks.github.io/calculator/Calculator/speed%20converter/speed.html" target="_blank" role="button">view source code</a>
+                            <h4>Speed conversion website using HTML,CSS and Javascript</h4>
+                            <a class="btn" href="https://shashankan-pks.github.io/calculator/Calculator/speed%20converter/speed.html" target="_blank" role="button">view Website</a>
                         </div>
                     </div>
                 </div>
