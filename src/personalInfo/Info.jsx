@@ -18,7 +18,9 @@ function Info(){
                         <h4><i class="fa-solid fa-user-graduate"></i> Educational Qualification</h4>
                         <div className="academic">
                             <h5>2020 - 2024</h5>
-                            <h6>Bachelor of Engineering(B.E), Electronics and Communication Engineering <br /> <br /> Government College of Engineering, Sengipatti, Thanjavur, Tamil Nadu <br /> <br /><span>CGPA : 7.82 </span></h6>
+                            <h6>Bachelor of Engineering(B.E), Electronics and Communication Engineering <br /> <br /> 
+                            Government College of Engineering, Sengipatti, Thanjavur, Tamil Nadu <br /> <br />
+                            <span>CGPA : 7.80 </span></h6>
                         </div>
                     </div>
                 </div>

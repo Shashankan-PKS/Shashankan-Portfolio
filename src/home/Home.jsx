@@ -24,7 +24,6 @@ function Home() {
                         </div>
                     </div>
                     <div class="res">
-                        
                         <button type="button"><a href={Shashankan_P_K_Resume} download='Shashankan_P_K_Resume'> <i class="fa-regular fa-file"></i> Resume Download</a></button>
                     </div>
                 </div>
