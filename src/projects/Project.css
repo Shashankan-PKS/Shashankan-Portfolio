@@ -28,6 +28,7 @@
 }
 .project1 .project1exp .btn, .project2 .project1exp .btn, .project3 .project1exp .btn, .project4 .project1exp .btn{
     background: rgb(255, 30, 0);
+    color: whitesmoke;
 }
 .project2{
     margin: auto;
