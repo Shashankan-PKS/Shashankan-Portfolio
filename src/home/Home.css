@@ -10,9 +10,9 @@
 }
 
 .container{
-    margin-top: 50px;
     text-align: center;
     justify-content: center;
+    place-items: center;
     background: whitesmoke;
     padding: 10px;
     border-radius: 10px;
@@ -25,7 +25,7 @@
     grid-template-columns: repeat(2, 1fr);
 }
 .profilepicture img{
-    width: 40%;
+    width: 280px;
     height: 250px;
     border-radius: 50%;
     border: 2px solid black;
@@ -65,19 +65,22 @@
     text-decoration: none;
     color: whitesmoke;
 }
-@media(max-width:1020px){
+@media(max-width:1200px){
     .profilepicture img{
-        width: 70%;
+        width: 55%;
         height: 250px;
     }
 }
-@media(max-width:900px){
+@media(max-width:1020px){
     .profilepicture img{
-        width: 70%;
+        width: 250px;
         height: 250px;
     }
 }
 @media(max-width:768px){
+    .content{
+        height: fit-content;
+    }
     .profile{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -88,7 +91,7 @@
 }
 @media(max-width:578px){
     .container{
-        width: 80%;
+        width: 90%;
     }
     .personalskills h5{
         font-size: 15px;
@@ -99,14 +102,14 @@
 }
 @media(max-width:530px){
     .profilepicture img{
-        width: 80%;
+        width: 200px;
     }
     
 }
 @media(max-width:450px){
     .profilepicture img{
-        width: 50%;
-        height: 150px;
+        width: 200px;
+        height: 190px;
     }
     
     

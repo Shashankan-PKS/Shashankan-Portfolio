@@ -1,8 +1,14 @@
-.infocontent{
+.info{
     text-align: center;
     padding: 20px;
     background: whitesmoke;
-    padding-bottom: 50px;
+    height: fit-content;
+}
+.infocontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
 }
 .infocontainer{
     background-color: rgb(56, 56, 56);
