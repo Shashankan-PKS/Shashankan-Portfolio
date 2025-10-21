@@ -40,6 +40,22 @@ function Skills(){
                             <i class="fa-brands fa-bootstrap"></i>
                             <p>Bootstrap</p>
                         </div>
+                        <div class="skills">
+                            <i class="fa-brands fa-node-js"></i>
+                            <p>Node Js</p>
+                        </div>
+                        <div class="skills">
+                            <img src={materialui} alt="" />
+                            <p>Material ui</p>
+                        </div>
+                        <div class="skills">
+                            <img src={express} alt="" />
+                            <p>Express Js</p>
+                        </div>
+                        <div class="skills">
+                            <img src={mangodb} alt="" />
+                            <p>Mango DB</p>
+                        </div>
                     </div>
                 </div>
             </div>
