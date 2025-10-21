@@ -3,6 +3,10 @@
     padding-top: 1px;
     padding-bottom: 50px;
     background-color: rgb(56, 56, 56);
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container{
@@ -13,6 +17,7 @@
     padding: 10px;
     border-radius: 10px;
     width: 100%;
+    overflow: hidden;
 }
 .profile{
     padding: 20px;
