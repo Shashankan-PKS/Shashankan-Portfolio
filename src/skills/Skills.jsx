@@ -1,4 +1,7 @@
 import './Skills.css'
+import materialui from '../assets/icons8-material-ui.svg'
+import express from '../assets/icons8-express-js.svg'
+import mangodb from '../assets/icons8-mongo-db-38.png'
 
 function Skills(){
 
