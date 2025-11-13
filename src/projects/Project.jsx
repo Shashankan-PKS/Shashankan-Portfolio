@@ -18,7 +18,7 @@ function Project(){
                             <img src={project1} />
                         </div>
                         <div className="project1exp">
-                            <h4>Online bus reservation project using HTML, CSS, Javascript, PHP and MySql for Database</h4>
+                            <h4>Online bus reservation project using React Js </h4>
                             <a class="btn" href="https://github.com/Shashankan-PKS/online_busreserv" target="_blank" role="button">view Source code</a>
                         </div>
                     </div>
