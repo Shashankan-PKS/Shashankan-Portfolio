@@ -1,5 +1,5 @@
 import './Home.css'
-import pic from '../assets/Professional_image_1.jpg'
+import pic from '../assets/Professional_image.png'
 import Shashankan_P_K_Resume from '../assets/Shashankan_Resume.pdf'
 import { motion } from 'framer-motion'
 
