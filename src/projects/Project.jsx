@@ -19,7 +19,7 @@ function Project(){
                         </div>
                         <div className="project1exp">
                             <h4>Online bus reservation project using React Js </h4>
-                            <a class="btn" href="https://github.com/Shashankan-PKS/online_busreserv" target="_blank" role="button">view Source code</a>
+                            <a class="btn" href="https://payanam-onlinebus-app.vercel.app/" target="_blank" role="button">view Website</a>
                         </div>
                     </div>
                     <div className="project2">
