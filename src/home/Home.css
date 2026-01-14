@@ -1,0 +1,131 @@
+.content{
+    margin: 0;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    background-color: rgb(56, 56, 56);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+.profile{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.profilepicture img{
+
+    /* Profile image rounded
+    width: 280px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid black; */
+
+    width: 250px;
+    height: 325px;
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+}
+.personalskills{
+    margin-top: 5%;
+    text-align: justify;
+    padding: 20px;
+    width: 100%;
+}
+.socials{
+    width: 100%;
+}
+.socials a i{
+    color: rgb(255, 30, 0);
+    font-size: 30px;
+    width: 20px;
+    height: 20px;
+}
+.res button{
+    padding: 10px;
+    background: rgb(255, 30, 0);
+    
+    border: none;
+    border-radius: 5px;
+}
+.res button a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+@media(max-width:1200px){
+    .profilepicture img{
+        height: 300px;
+    }
+}
+@media(max-width:1020px){
+    .profilepicture img{
+        /* Profile image rounded
+        width: 250px;
+        height: 250px; */
+        width: 250px;
+        height: 300px;
+    }
+}
+@media(max-width:768px){
+    .content{
+        height: fit-content;
+    }
+    .profile{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .profilepicture img{
+
+        /* Profile image rounded
+        width: 250px;
+        height: 225px; */
+        width: 250px;
+        height: 300px;
+    }
+}
+@media(max-width:578px){
+    .container{
+        width: 90%;
+    }
+    .personalskills h5{
+        font-size: 15px;
+    }
+    .personalskills .socials a i{
+        font-size: 20px;
+    }
+}
+@media(max-width:530px){
+    .profilepicture img{
+        width: 200px;
+    }
+    
+}
+@media(max-width:450px){
+    .profilepicture img{
+        /* Profile image rounded
+        width: 200px;
+        height: 190px; */
+        width: 200px;
+        height: 250px;
+    }
+    
+    
+}

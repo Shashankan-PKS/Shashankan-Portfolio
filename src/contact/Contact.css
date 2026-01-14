@@ -1,0 +1,78 @@
+.contactcontent{
+    text-align: center;
+    padding: 20px;
+    background:  rgb(56, 56, 56);
+}
+.contactcontent h4{
+    padding: 20px;
+    color: rgb(255, 30, 0);
+}
+.contactcontainer{
+    margin: auto;
+    background: white;
+    width: 55%;
+    border-radius: 10px;
+    padding: 20px;
+    height: auto;
+}
+.contactcontainer form input{
+    background: rgba(243, 236, 236, 0.699);
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.contactcontainer form textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    background: rgba(243, 236, 236, 0.699);
+}
+.contactcontainer form .button{
+    background: rgba(202, 29, 64, 0.623);
+    color: whitesmoke;
+    cursor: pointer;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.contactcontainer form .button:hover{
+    background: crimson;
+}
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.footer p{
+    padding-top: 20px;
+    color: rgb(255, 30, 0);
+}
+@media (max-width:658px){
+    .contactcontainer{
+        width: 100%;
+    }
+}
+@media (max-width:450px){
+    .contactcontent h4{
+        font-size: 15px;
+    }
+    .contactcontainer form input, .contactcontainer form textarea, .contactcontainer form .button {
+        font-size: 12px;
+    }
+    .footer p{
+        font-size: 10px;
+    }
+}

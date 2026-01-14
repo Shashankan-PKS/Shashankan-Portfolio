@@ -1,0 +1,64 @@
+.info{
+    text-align: center;
+    padding: 20px;
+    background: whitesmoke;
+    height: fit-content;
+}
+.infocontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+.infocontainer{
+    background-color: rgb(56, 56, 56);
+    color: whitesmoke;
+    padding: 30px;
+    border-radius: 10px;
+}
+.infocontainer h4{
+    padding: 10px;
+}
+.information{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.information h5 span{
+    color: rgb(255, 30, 0);
+}
+.eduqual h4{
+    color: rgb(255, 30, 0);
+}
+.eduqual .academic h6 span{
+    color: rgb(255, 30, 0);
+}
+@media (max-width:678px){
+    .information{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .infocontainer{
+        margin-top: 10px;
+    }
+    .information h5{
+        padding: 10px;
+        font-size: 15px;
+    }
+    .eduqual .academic h5 {
+        font-size: 15px;
+    }
+    .eduqual .academic h6{
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+@media (max-width:478px){
+    .eduqual h4{
+        font-size: 14px;
+    }.eduqual .academic h5 {
+        font-size: 12px;
+    }
+    .eduqual .academic h6{
+        font-size: 12px;
+        padding: 10px;
+    }
+}
